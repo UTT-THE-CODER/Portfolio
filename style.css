@@ -926,7 +926,9 @@ section{
         padding: 0.8rem;
     }
     .card-container {
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         gap: 1.2rem;
         margin-top: 1.2rem;
