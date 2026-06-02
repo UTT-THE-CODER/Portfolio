@@ -78,64 +78,44 @@ section{
     position: relative;
 }
 .list a{
-
     text-decoration: none;
-
-    color: #f5f5f5;
-
+    color:#f5f5f5;
     position: relative;
-
     font-size: 20px;
-
     font-weight: 500;
 }
 
 .list a::after{
-
     content: '';
-
     position: absolute;
-
     width: 0%;
-
     height: 2px;
-
     left: 0;
-
     bottom: -5px;
-
     background-color: #cba6f7;
-
     transition: 0.3s;
 }
 
 .list a:hover{
-
     color: #cba6f7;
-
     transform:
     scale(1.1)
     translateY(-2px);
-
     text-shadow:
     0 0 10px #7c3aed;
 }
 
 .list a:hover::after{
-
     width: 100%;
 }
 
 .list a.active{
-
     color: #cba6f7;
-
     text-shadow:
     0 0 10px rgba(203,166,247,0.6);
 }
 
 .list a.active::after{
-
     width: 100%;
 }
 
@@ -203,6 +183,11 @@ section{
     background-color: #cba6f7;
 }
 
+.btn1 a{
+    text-decoration: none;
+    color: #1e1e2f;
+}
+
 .btn1:hover{
     box-shadow: 0 1rem 1rem rgba(203,166,247,0.5);
 }
@@ -212,6 +197,11 @@ section{
     border: 2px solid #cba6f7;
     color: white;
 }
+
+.btn2 a{
+    text-decoration: none;
+    color: white;
+} 
 
 .btn1:hover,
 .btn2:hover{
@@ -1092,28 +1082,18 @@ section{
     }
 
     .project-buttons{
-
     display: flex;
-
     gap: 1rem;
-
     margin-top: 1rem;
 }
 
 .project-buttons a{
-
     padding: 0.8rem 1.4rem;
-
     border-radius: 10px;
-
     text-decoration: none;
-
     background: #cba6f7;
-
     color: #1e1e2f;
-
     font-weight: 600;
-
     transition: 0.3s ease;
 }
 
